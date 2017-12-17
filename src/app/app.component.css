@@ -1,0 +1,51 @@
+
+
+.search .fa-search {
+  color: white;
+}
+
+.search .fa-search::before {
+  margin-right: 10px;
+}
+
+.under-nav {
+  margin-top: 100px;
+}
+
+.item {
+  margin-top: 20px;
+}
+
+.hidden-lg-down {
+  display: none;
+}
+
+.sub-list {
+  margin-top: 40px;
+}
+
+.list-title::after {
+  content:'';
+  display:inline-block;
+  width:100%; height:1px;
+  position: relative;
+  top: -10px;
+  margin-right:-100%;
+  border-bottom:1px solid #ddd;
+}
+
+.nav-link.active {
+  font-weight: bold;
+}
+
+@media (min-width: 1199px) {
+
+  .hidden-lg-up {
+    display: none;
+  }
+
+  .hidden-lg-down {
+    display: block;
+  }
+
+}
